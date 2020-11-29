@@ -1,0 +1,73 @@
+{
+  "uid" : "8462a5167a65b5ec",
+  "name" : "testapis[1-get首页]",
+  "fullName" : "common.test_cases#testapis",
+  "historyId" : "bd72edc2c1dbf55d13fa61292e1d9cba",
+  "time" : {
+    "start" : 1591498962368,
+    "stop" : 1591498962386,
+    "duration" : 18
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "moco"
+  }, {
+    "name" : "parentSuite",
+    "value" : "common"
+  }, {
+    "name" : "suite",
+    "value" : "test_cases"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-JKA6LK2E"
+  }, {
+    "name" : "thread",
+    "value" : "16744-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "common.test_cases"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "data",
+    "value" : "''"
+  }, {
+    "name" : "expect",
+    "value" : "'test get request'"
+  }, {
+    "name" : "header",
+    "value" : "''"
+  }, {
+    "name" : "host",
+    "value" : "'192.168.0.105:8080'"
+  }, {
+    "name" : "method",
+    "value" : "'GET'"
+  }, {
+    "name" : "url",
+    "value" : "'/foo'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "moco" ]
+  },
+  "source" : "8462a5167a65b5ec.json",
+  "parameterValues" : [ "''", "'test get request'", "''", "'192.168.0.105:8080'", "'GET'", "'/foo'" ]
+}

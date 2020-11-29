@@ -1,0 +1,70 @@
+{
+  "uid" : "72cfaa1667788ca5",
+  "name" : "testapis[check email ]",
+  "fullName" : "common.test_cases#testapis",
+  "historyId" : "e778f92fff38bfa33bc67c70c3393ba9",
+  "time" : {
+    "start" : 1590914154636,
+    "stop" : 1590914154666,
+    "duration" : 30
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "common"
+  }, {
+    "name" : "suite",
+    "value" : "test_cases"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-JKA6LK2E"
+  }, {
+    "name" : "thread",
+    "value" : "8128-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "common.test_cases"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "data",
+    "value" : "'{\"email\": \"chris06@mial.com\" }'"
+  }, {
+    "name" : "expect",
+    "value" : "'邮箱不存在，可以使用'"
+  }, {
+    "name" : "header",
+    "value" : "'{\"Cookie\":\"JSESSIONID=97BA4208FB888D1811E74AE6074938A8\"}'"
+  }, {
+    "name" : "host",
+    "value" : "'192.168.0.115:8080'"
+  }, {
+    "name" : "method",
+    "value" : "'POST'"
+  }, {
+    "name" : "url",
+    "value" : "'/javamall/api/shop/member!checkemail.do?ajax=yes'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "72cfaa1667788ca5.json",
+  "parameterValues" : [ "'{\"email\": \"chris06@mial.com\" }'", "'邮箱不存在，可以使用'", "'{\"Cookie\":\"JSESSIONID=97BA4208FB888D1811E74AE6074938A8\"}'", "'192.168.0.115:8080'", "'POST'", "'/javamall/api/shop/member!checkemail.do?ajax=yes'" ]
+}

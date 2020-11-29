@@ -1,0 +1,81 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "common.test_cases",
+    "children" : [ {
+      "name" : "testapis[1-get首页]",
+      "uid" : "8462a5167a65b5ec",
+      "parentUid" : "038a830d0e6fd6852faf8185a6aeeead",
+      "status" : "passed",
+      "time" : {
+        "start" : 1591498962368,
+        "stop" : 1591498962386,
+        "duration" : 18
+      },
+      "flaky" : false,
+      "parameters" : [ "''", "'test get request'", "''", "'192.168.0.105:8080'", "'GET'", "'/foo'" ]
+    }, {
+      "name" : "testapis[2-delete通用]",
+      "uid" : "abefc1f7a6449f23",
+      "parentUid" : "038a830d0e6fd6852faf8185a6aeeead",
+      "status" : "passed",
+      "time" : {
+        "start" : 1591498962402,
+        "stop" : 1591498962411,
+        "duration" : 9
+      },
+      "flaky" : false,
+      "parameters" : [ "''", "''", "''", "'192.168.0.105:8080'", "'DELETE'", "'/foodelete'" ]
+    }, {
+      "name" : "testapis[3-get-user]",
+      "uid" : "19757f999c60e12d",
+      "parentUid" : "038a830d0e6fd6852faf8185a6aeeead",
+      "status" : "passed",
+      "time" : {
+        "start" : 1591498962425,
+        "stop" : 1591498962435,
+        "duration" : 10
+      },
+      "flaky" : false,
+      "parameters" : [ "''", "'Janet'", "''", "'192.168.0.105:8080'", "'GET'", "'/api/user'" ]
+    }, {
+      "name" : "testapis[4-post-user]",
+      "uid" : "a9524f9f62fdca8d",
+      "parentUid" : "038a830d0e6fd6852faf8185a6aeeead",
+      "status" : "passed",
+      "time" : {
+        "start" : 1591498962455,
+        "stop" : 1591498962464,
+        "duration" : 9
+      },
+      "flaky" : false,
+      "parameters" : [ "'{\"job\":\"tester\",\"name\":\"Anthony\"}'", "'tester'", "''", "'192.168.0.105:8080'", "'POST'", "'/api/user'" ]
+    }, {
+      "name" : "testapis[5-put-user]",
+      "uid" : "fff7c8690adad3a4",
+      "parentUid" : "038a830d0e6fd6852faf8185a6aeeead",
+      "status" : "passed",
+      "time" : {
+        "start" : 1591498962480,
+        "stop" : 1591498962490,
+        "duration" : 10
+      },
+      "flaky" : false,
+      "parameters" : [ "'{\"job\":\"automation tester\",\"name\":\"Anthony\"}'", "'automation tester'", "''", "'192.168.0.105:8080'", "'PUT'", "'/api/user/2'" ]
+    }, {
+      "name" : "testapis[6-delete-user]",
+      "uid" : "8c852582cf86d427",
+      "parentUid" : "038a830d0e6fd6852faf8185a6aeeead",
+      "status" : "passed",
+      "time" : {
+        "start" : 1591498962504,
+        "stop" : 1591498962514,
+        "duration" : 10
+      },
+      "flaky" : false,
+      "parameters" : [ "''", "''", "''", "'192.168.0.105:8080'", "'DELETE'", "'/api/user/2'" ]
+    } ],
+    "uid" : "common.test_cases"
+  } ]
+}

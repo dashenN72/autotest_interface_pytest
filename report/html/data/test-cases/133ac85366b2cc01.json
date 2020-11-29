@@ -1,0 +1,70 @@
+{
+  "uid" : "133ac85366b2cc01",
+  "name" : "testapis[cart1]",
+  "fullName" : "common.test_cases#testapis",
+  "historyId" : "99a79f33ca29a8233f2b7642dece9f96",
+  "time" : {
+    "start" : 1590914155017,
+    "stop" : 1590914155044,
+    "duration" : 27
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "common"
+  }, {
+    "name" : "suite",
+    "value" : "test_cases"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-JKA6LK2E"
+  }, {
+    "name" : "thread",
+    "value" : "8128-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "common.test_cases"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "data",
+    "value" : "''"
+  }, {
+    "name" : "expect",
+    "value" : "''"
+  }, {
+    "name" : "header",
+    "value" : "'{\"Cookie\":\"JSESSIONID=97BA4208FB888D1811E74AE6074938A8\"}'"
+  }, {
+    "name" : "host",
+    "value" : "'192.168.0.115:8080'"
+  }, {
+    "name" : "method",
+    "value" : "'GET'"
+  }, {
+    "name" : "url",
+    "value" : "'/javamall/api/shop/cart!getCartData.do?ajax=yes&_=1583553111909'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "133ac85366b2cc01.json",
+  "parameterValues" : [ "''", "''", "'{\"Cookie\":\"JSESSIONID=97BA4208FB888D1811E74AE6074938A8\"}'", "'192.168.0.115:8080'", "'GET'", "'/javamall/api/shop/cart!getCartData.do?ajax=yes&_=1583553111909'" ]
+}

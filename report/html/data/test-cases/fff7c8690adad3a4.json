@@ -1,0 +1,73 @@
+{
+  "uid" : "fff7c8690adad3a4",
+  "name" : "testapis[5-put-user]",
+  "fullName" : "common.test_cases#testapis",
+  "historyId" : "5e74e217f623a18fe3b028f6f8e7acdf",
+  "time" : {
+    "start" : 1591498962480,
+    "stop" : 1591498962490,
+    "duration" : 10
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "moco"
+  }, {
+    "name" : "parentSuite",
+    "value" : "common"
+  }, {
+    "name" : "suite",
+    "value" : "test_cases"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-JKA6LK2E"
+  }, {
+    "name" : "thread",
+    "value" : "16744-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "common.test_cases"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "data",
+    "value" : "'{\"job\":\"automation tester\",\"name\":\"Anthony\"}'"
+  }, {
+    "name" : "expect",
+    "value" : "'automation tester'"
+  }, {
+    "name" : "header",
+    "value" : "''"
+  }, {
+    "name" : "host",
+    "value" : "'192.168.0.105:8080'"
+  }, {
+    "name" : "method",
+    "value" : "'PUT'"
+  }, {
+    "name" : "url",
+    "value" : "'/api/user/2'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "moco" ]
+  },
+  "source" : "fff7c8690adad3a4.json",
+  "parameterValues" : [ "'{\"job\":\"automation tester\",\"name\":\"Anthony\"}'", "'automation tester'", "''", "'192.168.0.105:8080'", "'PUT'", "'/api/user/2'" ]
+}

@@ -1,0 +1,61 @@
+[ {
+  "uid" : "19757f999c60e12d",
+  "name" : "testapis[3-get-user]",
+  "time" : {
+    "start" : 1591498962425,
+    "stop" : 1591498962435,
+    "duration" : 10
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8c852582cf86d427",
+  "name" : "testapis[6-delete-user]",
+  "time" : {
+    "start" : 1591498962504,
+    "stop" : 1591498962514,
+    "duration" : 10
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a9524f9f62fdca8d",
+  "name" : "testapis[4-post-user]",
+  "time" : {
+    "start" : 1591498962455,
+    "stop" : 1591498962464,
+    "duration" : 9
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8462a5167a65b5ec",
+  "name" : "testapis[1-get首页]",
+  "time" : {
+    "start" : 1591498962368,
+    "stop" : 1591498962386,
+    "duration" : 18
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "abefc1f7a6449f23",
+  "name" : "testapis[2-delete通用]",
+  "time" : {
+    "start" : 1591498962402,
+    "stop" : 1591498962411,
+    "duration" : 9
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fff7c8690adad3a4",
+  "name" : "testapis[5-put-user]",
+  "time" : {
+    "start" : 1591498962480,
+    "stop" : 1591498962490,
+    "duration" : 10
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

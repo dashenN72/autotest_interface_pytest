@@ -1,0 +1,73 @@
+{
+  "uid" : "a9524f9f62fdca8d",
+  "name" : "testapis[4-post-user]",
+  "fullName" : "common.test_cases#testapis",
+  "historyId" : "394e671b91661f90aea6f7a30dec3fad",
+  "time" : {
+    "start" : 1591498962455,
+    "stop" : 1591498962464,
+    "duration" : 9
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "moco"
+  }, {
+    "name" : "parentSuite",
+    "value" : "common"
+  }, {
+    "name" : "suite",
+    "value" : "test_cases"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-JKA6LK2E"
+  }, {
+    "name" : "thread",
+    "value" : "16744-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "common.test_cases"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "data",
+    "value" : "'{\"job\":\"tester\",\"name\":\"Anthony\"}'"
+  }, {
+    "name" : "expect",
+    "value" : "'tester'"
+  }, {
+    "name" : "header",
+    "value" : "''"
+  }, {
+    "name" : "host",
+    "value" : "'192.168.0.105:8080'"
+  }, {
+    "name" : "method",
+    "value" : "'POST'"
+  }, {
+    "name" : "url",
+    "value" : "'/api/user'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "moco" ]
+  },
+  "source" : "a9524f9f62fdca8d.json",
+  "parameterValues" : [ "'{\"job\":\"tester\",\"name\":\"Anthony\"}'", "'tester'", "''", "'192.168.0.105:8080'", "'POST'", "'/api/user'" ]
+}
